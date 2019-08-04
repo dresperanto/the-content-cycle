@@ -11,7 +11,7 @@ const about = () => {
       <div className="animated fadeIn mainContent">
         <h2>The Content Cycle</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in
+          Lorem ipsum dolo sit amet, consectetur adipiscing elit. Morbi in
           pellentesque nisl. Pellentesque libero orci, semper ut pretium ac,
           molestie in lacus. Duis ac sapien purus. Morbi posuere aliquet tellus,
           at pharetra nulla fermentum at. Donec aliquam, felis vitae faucibus
