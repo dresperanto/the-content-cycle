@@ -1,0 +1,55 @@
+@media only screen and (max-width: 768px) {
+  .top-margin {
+    margin-top: 1rem !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .top-margin {
+    margin-top: 6rem !important;
+  }
+}
+
+.pricingHeading {
+  background-color: #ececec !important;
+  color: #00960a !important;
+  font-weight: bold !important;
+}
+
+.pricingDescription {
+  background-color: #ececec !important;
+  color: #333 !important;
+  font-weight: bold !important;
+}
+
+.pricingBackground {
+  background-image: url("/images/bg_1.jpg") !important;
+  background-size: cover !important;
+  background-position-y: center !important;
+}
+
+.pricingDescription a {
+  color: #00960a !important;
+}
+
+.pricingDescription a:hover {
+  color: green !important;
+}
+
+.plan {
+  /* overflow: hidden; */
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.plan:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+  z-index: 1;
+}

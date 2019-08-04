@@ -1,0 +1,19 @@
+.footerText {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 0.8rem !important;
+  /* padding-left: 60px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #0b519c !important;
+  color: white !important;
+}
+
+.footerItem {
+  /* padding-right: 0.5rem;
+  padding-left: 0.5rem; */
+  color: white !important;
+}
+
+.footerLink {
+  color: white !important;
+}

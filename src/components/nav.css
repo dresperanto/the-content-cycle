@@ -1,0 +1,25 @@
+.nav-item:hover {
+  color: #0b519c;
+}
+
+.activeNav {
+  color: #464747 !important;
+  font-weight: 900 !important;
+  font-family: Montserrat !important;
+  background-color: #f5f5f5 !important;
+  /* display: none; */
+}
+
+.logo {
+  color: #0b519c !important;
+  font-family: Montserrat !important;
+  font-size: 1.4rem;
+}
+
+.nav-item {
+  font-family: Montserrat !important;
+}
+
+.nav-item {
+  font-family: Montserrat !important;
+}
