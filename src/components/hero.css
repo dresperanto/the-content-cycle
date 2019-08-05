@@ -1,7 +1,7 @@
 .heroBanner {
   background: linear-gradient(
-      rgba(0, 0, 0, 0) 39%,
-      rgba(0, 0, 0, 0) 41%,
+      rgba(0, 0, 0, 0) 69%,
+      rgba(0, 0, 0, 0) 61%,
       rgba(0, 0, 0, 0.65) 100%
     ),
     url("http://image.tmdb.org/t/p/w1280/hpgda6P9GutvdkDX5MUJ92QG9aj.jpg"),
@@ -34,10 +34,10 @@
 
 .rmdb-heroimage-text {
   z-index: 100;
-  max-width: 700px;
+  max-width: 960px;
   text-align: center;
   bottom: 40px;
-  margin: 100px auto;
+  margin: 120px auto;
   min-height: 100px;
   background: rgba(0, 0, 0, 0);
   color: #fff;
@@ -84,4 +84,10 @@
     line-height: 20px;
     color: #fff;
   }
+}
+
+.homeSubHeading {
+  font-size: 2rem !important;
+  font-weight: bold !important;
+  color: #eaeaec !important;
 }

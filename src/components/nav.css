@@ -13,7 +13,7 @@
 .logo {
   color: #0b519c !important;
   font-family: Montserrat !important;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .nav-item {
@@ -26,6 +26,8 @@
 
 .logoStyle {
   border: solid 2px #0b519c;
-  border-radius: 12px;
-  padding: 6px;
+  background-color: #0b519c;
+  border-radius: 16px;
+  padding: 8px;
+  color: white;
 }

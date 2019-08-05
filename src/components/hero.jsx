@@ -10,7 +10,7 @@ const Hero = () => {
       style={{
         maxHeight: "400px",
         background: `linear-gradient(to top, rgba(0,0,0,0)
-          39%, rgba(0,0,0,0)
+          19%, rgba(0,0,0,0)
           41%, rgba(0,0,0,.85)
           100%),
           url('${HeroImage}'), #1c1c1c`,
@@ -22,9 +22,9 @@ const Hero = () => {
             Efficient and Affordable <br />
             High-Tech Content Creation Services
           </h1>
-          <p>
+          <p className="homeSubHeading">
             Contributed articles <Icon name="circle" size="tiny" /> Press
-            releases <Icon name="circle" size="tiny" /> Blogs
+            releases <Icon name="circle" size="small" /> Blogs
           </p>
         </div>
       </div>

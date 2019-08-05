@@ -11,14 +11,14 @@ const IndexPage = () => (
     <div className="animated fadeIn" style={{ marginBottom: "100px" }}>
       <Hero />
       <div className="homeContent">
-        <h3>
+        <p>
           <strong>
             Unique, relevant, and impactful content is an important element of
             the marketing mix for high-tech B2B companies. It creates awareness,
             builds credibility, and helps differentiate the organization within
             the marketplace.
           </strong>{" "}
-        </h3>
+        </p>
         <p>
           Unfortunately, domain experts within the organization (CEO, CTO,
           developers) oftentimes do not have the time to commit to creating

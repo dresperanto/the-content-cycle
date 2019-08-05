@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import { Container, Image, Menu } from "semantic-ui-react"
 import { Link } from "gatsby"
-import Logo from "../images/favicon_1.png"
+import Logo from "../images/favicon.png"
 import "./nav.css"
 
 class Nav extends Component {
@@ -11,7 +11,7 @@ class Nav extends Component {
         <Menu fixed="top">
           <Container>
             <Menu.Item className="logo" as={Link} to="/" header>
-              <Image
+              {/* <Image
                 size="mini"
                 src={Logo}
                 style={{
@@ -19,7 +19,7 @@ class Nav extends Component {
                   maxHeight: "25px",
                   marginBottom: "0px",
                 }}
-              />
+              /> */}
               <div className="logoStyle">The Content Cycle</div>
             </Menu.Item>
             <Menu.Item
