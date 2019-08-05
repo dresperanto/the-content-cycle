@@ -23,8 +23,7 @@ const Hero = () => {
             High-Tech Content Creation Services
           </h1>
           <p className="homeSubHeading">
-            Contributed articles <Icon name="circle" size="tiny" /> Press
-            releases <Icon name="circle" size="small" /> Blogs
+            Contributed articles | Press releases | Blogs
           </p>
         </div>
       </div>
