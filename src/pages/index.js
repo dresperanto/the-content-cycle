@@ -8,7 +8,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
 
-    <div className="animated fadeIn">
+    <div className="animated fadeIn" style={{ marginBottom: "100px" }}>
       <Hero />
       <div className="homeContent">
         <h3>
@@ -29,6 +29,12 @@ const IndexPage = () => (
           required to understand and uplevel the content for clarity to a wider
           audience (or they simply don’t have the time to create the content
           themselves).
+        </p>
+        <p>
+          I have been creating content for high-tech B2B companies since 2000.
+          During that time, I have refined a content creation workflow program
+          (“The Content Cycle”) to efficiently produce unique, relevant, and
+          impactful content.{" "}
         </p>
       </div>
     </div>

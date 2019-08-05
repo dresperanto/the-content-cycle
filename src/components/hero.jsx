@@ -1,6 +1,6 @@
 import React from "react"
 import "./hero.css"
-import HeroImage from "../images/home_1.jpg"
+import HeroImage from "../images/home_4.jpeg"
 import { Icon } from "semantic-ui-react"
 
 const Hero = () => {
@@ -23,8 +23,8 @@ const Hero = () => {
             High-Tech Content Creation Services
           </h1>
           <p>
-            Contributed articles <Icon name="bullseye" /> Press releases{" "}
-            <Icon name="bullseye" /> Blogs
+            Contributed articles <Icon name="circle" size="tiny" /> Press
+            releases <Icon name="circle" size="tiny" /> Blogs
           </p>
         </div>
       </div>

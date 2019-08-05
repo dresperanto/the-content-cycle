@@ -20,7 +20,7 @@ class Nav extends Component {
                   marginBottom: "0px",
                 }}
               />
-              <div>The Content Cycle</div>
+              <div className="logoStyle">The Content Cycle</div>
             </Menu.Item>
             <Menu.Item
               className="nav-item"
