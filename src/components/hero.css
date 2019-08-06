@@ -1,3 +1,47 @@
+@media only screen and (max-width: 480px) {
+  h1 {
+    /* color: red !important; */
+    font-size: 1.6rem !important;
+  }
+
+  .homeSubHeading {
+    display: none !important;
+  }
+  ul.mobileShow {
+    font-size: 1.2rem;
+    list-style: none;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .mobileShow {
+    display: none;
+  }
+}
+/* Tablet Styles */
+@media only screen and (max-width: 768px) {
+  h1 {
+    /* color: red !important; */
+    font-size: 2rem !important;
+  }
+
+  .rmdb-heroimage-text .homeSubHeading {
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    color: #eaeaec !important;
+    background-color: #000;
+    padding: 8px;
+    border-radius: 12px;
+    opacity: 0.65;
+    width: 70%;
+    margin: auto;
+  }
+  ul.mobileShow {
+    font-size: 1.2rem;
+    list-style: none;
+  }
+}
+
 .heroBanner {
   background: linear-gradient(
       rgba(0, 0, 0, 0) 69%,
@@ -69,7 +113,7 @@
   color: #fff;
 }
 
-@media screen and (max-width: 720px) {
+/* @media screen and (max-width: 720px) {
   .rmdb-heroimage-text {
     max-width: 100%;
   }
@@ -84,16 +128,16 @@
     line-height: 20px;
     color: #fff;
   }
-}
+} */
 
 .homeSubHeading {
-  font-size: 2rem !important;
+  font-size: 1.8rem !important;
   font-weight: bold !important;
-  color: #eaeaec !important;
-  background-color: #888;
+  color: #fff !important;
+  background-color: #000;
   padding: 8px;
   border-radius: 12px;
-  opacity: 0.85;
+  opacity: 0.65;
   width: 70%;
   margin: auto;
 }

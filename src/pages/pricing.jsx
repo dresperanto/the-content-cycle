@@ -74,9 +74,12 @@ const Pricing = () => {
                     <h4 style={{ fontSize: "1.6rem" }}>Larger Projects</h4>
                   </Segment>
                   <Segment textAlign="center">
-                    <Statistic>
-                      <Statistic.Value>Contact for Quote</Statistic.Value>
-                    </Statistic>
+                    <br />
+                    <span style={{ fontSize: "1.4rem", fontWeight: "bold" }}>
+                      Contact for Quote
+                    </span>
+                    <br />
+                    <br />
 
                     {/* <Icon name="pencil" size="huge" /> */}
                   </Segment>

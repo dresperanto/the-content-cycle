@@ -21,8 +21,14 @@ const Hero = () => {
             Efficient and Affordable <br />
             High-Tech Content Creation Services
           </h1>
+          <ul className="mobileShow">
+            <li>Contributed articles</li>
+            <li>Press releases</li>
+            <li>Blogs</li>
+          </ul>
+
           <p className="homeSubHeading">
-            Contributed articles | Press releases | Blogs
+            Contributed articles • Press releases • Blogs
           </p>
         </div>
       </div>
