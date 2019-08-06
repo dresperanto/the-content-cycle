@@ -1,7 +1,6 @@
 import React from "react"
 import "./hero.css"
-import HeroImage from "../images/home_4.jpeg"
-import { Icon } from "semantic-ui-react"
+import HeroImage from "../images/home_7.jpg"
 
 const Hero = () => {
   return (

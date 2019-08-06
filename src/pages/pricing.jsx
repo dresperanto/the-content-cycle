@@ -50,7 +50,7 @@ const Pricing = () => {
                     {/* <Icon name="pencil" size="huge" /> */}
 
                     <Statistic>
-                      <Statistic.Value>$3,000</Statistic.Value>
+                      <Statistic.Value>$3,500</Statistic.Value>
                     </Statistic>
                   </Segment>
 
@@ -71,11 +71,11 @@ const Pricing = () => {
                     className="pricingHeading"
                     textAlign="center"
                   >
-                    <h4 style={{ fontSize: "1.6rem" }}>Custom Solution</h4>
+                    <h4 style={{ fontSize: "1.6rem" }}>Larger Projects</h4>
                   </Segment>
                   <Segment textAlign="center">
                     <Statistic>
-                      <Statistic.Value>$TBD</Statistic.Value>
+                      <Statistic.Value>Contact for Quote</Statistic.Value>
                     </Statistic>
 
                     {/* <Icon name="pencil" size="huge" /> */}

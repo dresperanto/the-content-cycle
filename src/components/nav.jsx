@@ -1,7 +1,6 @@
 import React, { Component } from "react"
-import { Container, Image, Menu } from "semantic-ui-react"
+import { Container, Menu } from "semantic-ui-react"
 import { Link } from "gatsby"
-import Logo from "../images/favicon.png"
 import "./nav.css"
 
 class Nav extends Component {
