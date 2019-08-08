@@ -46,6 +46,9 @@ class NavMobile extends Component {
             onClick={this.toggleHamburger}
           />
         </div>
+        <div>
+          <div className="mobileLogoStyle">The Content Cycle</div>
+        </div>
         <div className={`animated fadeIn  ${navBarActiveClass}`}>
           <Menu fluid vertical>
             <Menu.Item

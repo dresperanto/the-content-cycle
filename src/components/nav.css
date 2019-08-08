@@ -35,20 +35,42 @@
   font-size: 1.6rem;
 }
 
-.nav-item {
-  font-family: Montserrat !important;
-}
-
-.nav-item {
-  font-family: Montserrat !important;
-}
-
 .logoStyle {
   border: solid 2px #0b519c;
   background-color: #0b519c;
   border-radius: 16px;
   padding: 8px;
   color: white;
+}
+
+/* .mobileLogo {
+  color: #0b519c !important;
+  font-family: Montserrat !important;
+  font-size: 1rem;
+} */
+
+.mobileLogoStyle {
+  border: solid 2px #0b519c;
+  background-color: #0b519c;
+  border-radius: 16px;
+  padding: 8px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 280px;
+  font-family: Montserrat !important;
+  font-size: 1rem;
+  margin: auto;
+  margin-top: -30px;
+  margin-bottom: 10px;
+}
+
+.nav-item {
+  font-family: Montserrat !important;
+}
+
+.nav-item {
+  font-family: Montserrat !important;
 }
 
 .hideNav {

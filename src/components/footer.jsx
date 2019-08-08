@@ -51,7 +51,7 @@ const Footer = ({ author, email }) => {
 
       <Responsive as={Container} {...Responsive.onlyMobile}>
         <Container>
-          <Segment className={footerStyles.footerText} fluid>
+          <Segment className={footerStyles.footerText}>
             <span className={footerStyles.footerItem}>
               <strong>Mobile:</strong> +1 650-922-3825
             </span>
