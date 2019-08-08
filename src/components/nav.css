@@ -12,6 +12,9 @@
   .mobileNav {
     display: none !important;
   }
+  .mainContent {
+    margin-top: 100px !important;
+  }
 }
 
 .nav-item:hover {
@@ -46,4 +49,22 @@
   border-radius: 16px;
   padding: 8px;
   color: white;
+}
+
+.hideNav {
+  display: none;
+}
+
+.hamburgerMenu {
+  padding: 10px;
+}
+
+.mobileMenu {
+  padding-bottom: 20px;
+}
+
+.mobileNav {
+  padding-bottom: 00px;
+  background-color: #f5f5f5;
+  border-bottom: 1px #888 solid;
 }

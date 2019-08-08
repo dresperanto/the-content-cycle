@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { Helmet } from "react-helmet"
 import Nav from "./nav"
+import NavMobile from "./navMobile"
 import Footer from "./footer"
 import "./layout.css"
 
@@ -46,6 +47,7 @@ const Layout = ({ children }) => {
         />
       </Helmet>
       <Nav siteTitle={data.site.siteMetadata.title} />
+      <NavMobile siteTitle={data.site.siteMetadata.title} />
       <div>
         <div>{children}</div>
 

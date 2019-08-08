@@ -1,94 +1,108 @@
 import React, { Component } from "react"
+import { Button, Container, Icon, List, Menu, Sidebar } from "semantic-ui-react"
 import { Link } from "gatsby"
-import {
-  Button,
-  Header,
-  Icon,
-  Image,
-  Menu,
-  Segment,
-  Sidebar,
-} from "semantic-ui-react"
-import Hero from "./hero"
+import "./nav.css"
+// import NavMobile from "./navMobile"
 
 class NavMobile extends Component {
-  state = { visible: false }
+  state = {
+    visible: false,
+    active: false,
+    navBarActiveClass: "hideNav",
+  }
+
+  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
   handleHideClick = () => this.setState({ visible: false })
-  handleShowClick = () => this.setState({ visible: true })
-  handleSidebarHide = () => this.setState({ visible: false })
+  toggleHamburger = () => {
+    // toggle the active boolean in the state
+    this.setState(
+      {
+        active: !this.state.active,
+      },
+      // after state has been updated,
+      () => {
+        // set the class in state for the navbar accordingly
+        this.state.active
+          ? this.setState({
+              navBarActiveClass: "is-active",
+            })
+          : this.setState({
+              navBarActiveClass: "hideNav",
+            })
+      }
+    )
+  }
 
   render() {
-    const { visible } = this.state
-
+    const { navBarActiveClass, activeItem } = this.state
     return (
-      <div>
-        <Button.Group>
-          <Button disabled={visible} onClick={this.handleShowClick}>
-            <Icon name="sidebar" />
-          </Button>
-          {/* <Button disabled={!visible} onClick={this.handleHideClick}>
-            Hide sidebar
-          </Button> */}
-        </Button.Group>
-
-        <Sidebar.Pushable as={Segment}>
-          <Sidebar
-            as={Menu}
-            animation="overlay"
-            icon="labeled"
-            inverted
-            onHide={this.handleSidebarHide}
-            vertical
-            visible={visible}
-            width="thin"
-          >
-            <Menu.Item>
+      <div className="mobileNav">
+        <div className="animated slideInLeft mobileMenu">
+          <Icon
+            className="hamburgerMenu"
+            name="sidebar"
+            size="large"
+            onClick={this.toggleHamburger}
+          />
+        </div>
+        <div className={`animated fadeIn  ${navBarActiveClass}`}>
+          <Menu fluid vertical>
+            <Menu.Item
+              name="home"
+              active={activeItem === "home"}
+              onClick={this.handleItemClick}
+              link
+              href="/"
+            />
+            <Menu.Item
+              name="About"
+              active={activeItem === "About"}
+              onClick={this.handleItemClick}
+              link
+              href="/about"
+            />
+            <Menu.Item
+              name="Examples"
+              active={activeItem === "Examples"}
+              onClick={this.handleItemClick}
+              href="/examples"
+            />
+            <Menu.Item
+              name="Contact"
+              active={activeItem === "Contact"}
+              onClick={this.handleItemClick}
+              href="/examples"
+            />
+          </Menu>
+          {/* <Button fluid color="black">
               <Link to="about/">About</Link>
-            </Menu.Item>
-            <Menu.Item as="a">Example</Menu.Item>
-            <Menu.Item as="a">Pricing</Menu.Item>
-            <Menu.Item as="a">Contact</Menu.Item>
-          </Sidebar>
+            </Button>
+            <Button fluid color="black">
+              <Link to="about/">About</Link>
+            </Button>
+            <Button fluid color="black">
+              <Link to="about/">About</Link>
+            </Button>
+            <Button fluid color="black">
+              <Link to="about/">About</Link>
+            </Button> */}
+        </div>
 
-          <Sidebar.Pusher>
-            <Segment basic>
-              <div
-                className="animated fadeIn"
-                style={{ marginBottom: "100px" }}
-              >
-                <Hero />
-                <div className="homeContent">
-                  <p>
-                    <strong>
-                      Unique, relevant, and impactful content is an important
-                      element of the marketing mix for high-tech B2B companies.
-                      It creates awareness, builds credibility, and helps
-                      differentiate the organization within the marketplace.
-                    </strong>{" "}
-                  </p>
-                  <p>
-                    Unfortunately, domain experts within the organization (CEO,
-                    CTO, developers) oftentimes do not have the time to commit
-                    to creating content.
-                  </p>
-                  <p>
-                    Alternatively, marketing teams may not have the technical
-                    expertise required to understand and uplevel the content for
-                    clarity to a wider audience (or they simply don’t have the
-                    time to create the content themselves).
-                  </p>
-                  <p>
-                    I have been creating content for high-tech B2B companies
-                    since 2000. During that time, I have refined a content
-                    creation workflow program (“The Content Cycle”) to
-                    efficiently produce unique, relevant, and impactful content.{" "}
-                  </p>
-                </div>
-              </div>
-            </Segment>
-          </Sidebar.Pusher>
-        </Sidebar.Pushable>
+        {/* <ul className={`mobileNav ${navBarActiveClass}`}>
+              <li>
+                <Link to="about/">About</Link>
+              </li>
+              <li>
+                <Link to="examples/">Example</Link>
+              </li>
+              <li>
+                <Link to="pricing/">Pricing</Link>
+              </li>
+              <li>
+                <Link to="contact/">Contact</Link>
+              </li>
+            </ul> */}
       </div>
     )
   }
