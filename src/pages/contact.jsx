@@ -10,11 +10,7 @@ const Contact = () => {
       <SEO title="Contact" />
       <Container>
         <div className="animated fadeIn mainContent contactForm">
-          <Segment
-            raised
-            padded
-            style={{ backgroundColor: "#f5f5f5", marginTop: "50px" }}
-          >
+          <Segment raised padded style={{ backgroundColor: "#f5f5f5" }}>
             <form
               name="contact"
               method="post"

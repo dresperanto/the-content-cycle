@@ -42,7 +42,7 @@ class NavMobile extends Component {
           <Icon
             className="hamburgerMenu"
             name="sidebar"
-            size="large"
+            size="big"
             onClick={this.toggleHamburger}
           />
         </div>
@@ -75,7 +75,7 @@ class NavMobile extends Component {
               name="Contact"
               active={activeItem === "Contact"}
               onClick={this.handleItemClick}
-              href="/examples"
+              href="/contact"
             />
           </Menu>
           {/* <Button fluid color="black">
