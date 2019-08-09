@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import { Link } from "gatsby"
 import "./about.css"
 import Headshot from "../images/ray_twitter.jpg"
 import SEO from "../components/seo"
@@ -53,10 +54,10 @@ const about = () => {
                   Foundation, MuleSoft, Nimble Storage, OpenStack, and Puppet.
                   Over the past 19 years, Ray has partnered with client to write
                   a myriad of contributed articles, blog posts, and press
-                  release (see examples here - link to Examples tab). During
-                  that time, Ray has streamlined “The Content Cycle” - a content
-                  creation workflow program that delivers unique, relevant, and
-                  impactful content.
+                  release (see examples <Link to="/examples">here</Link>).
+                  During that time, Ray has streamlined “The Content Cycle” - a
+                  content creation workflow program that delivers unique,
+                  relevant, and impactful content.
                 </p>
               </Segment>
             </Grid.Column>
