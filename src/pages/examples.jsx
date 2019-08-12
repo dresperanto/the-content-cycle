@@ -14,8 +14,9 @@ const examples = () => {
         <h2>Examples of recent contributed articles</h2>
         <Segment>
           <List divided verticalAlign="middle">
-            <List.Item>
+            <List.Item verticalAlign="top">
               <Image avatar src={SDXLogo} size="mini" />
+              <br />
               <List.Content>
                 <List.Header>
                   <a
@@ -31,6 +32,7 @@ const examples = () => {
 
             <List.Item>
               <Image avatar src={NewStackLogo} size="mini" />
+              <br />
               <List.Content>
                 <List.Header>
                   <a
@@ -46,6 +48,7 @@ const examples = () => {
             </List.Item>
             <List.Item>
               <Image avatar src={NetworkLogo} size="mini" />
+              <br />
               <List.Content>
                 <List.Header>
                   <a
@@ -64,11 +67,8 @@ const examples = () => {
         <Segment>
           <List divided relaxed>
             <List.Item>
-              <List.Icon
-                name="edit outline"
-                size="large"
-                verticalAlign="middle"
-              />
+              <List.Icon name="edit outline" size="large" />
+
               <List.Content>
                 <List.Header>
                   <a
@@ -84,11 +84,7 @@ const examples = () => {
               </List.Content>
             </List.Item>
             <List.Item>
-              <List.Icon
-                name="edit outline"
-                size="large"
-                verticalAlign="middle"
-              />
+              <List.Icon name="edit outline" size="large" verticalAlign="top" />
               <List.Content>
                 <List.Header>
                   <a
@@ -103,11 +99,7 @@ const examples = () => {
               </List.Content>
             </List.Item>
             <List.Item>
-              <List.Icon
-                name="edit outline"
-                size="large"
-                verticalAlign="middle"
-              />
+              <List.Icon name="edit outline" size="large" verticalAlign="top" />
               <List.Content>
                 <List.Header>
                   <a
