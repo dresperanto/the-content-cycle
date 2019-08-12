@@ -3,9 +3,11 @@ module.exports = {
     title: `The Content Cycle`,
     description: `Efficient and Affordable High-Tech Content Creation Services.`,
     author: `Ray George`,
+    siteUrl: `https://thecontentcycle.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -14,22 +16,8 @@ module.exports = {
         head: true,
         // Setting this parameter is optional
         anonymize: true,
-        // Setting this parameter is also optional
-        respectDNT: true,
         // Avoids sending pageview hits from custom paths
         exclude: ["/preview/**", "/do-not-track/me/too/"],
-        // Delays sending pageview hits on route update (in milliseconds)
-        pageTransitionDelay: 0,
-        // Enables Google Optimize using your container Id
-        optimizeId: "UA-145484441-1",
-        // Enables Google Optimize Experiment ID
-        experimentId: "UA-145484441-1D",
-        // Set Variation ID. 0 for original 1,2,3....
-        variationId: "0",
-        // Any additional optional fields
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-        cookieDomain: "thecontentcycle.com",
       },
     },
     {
