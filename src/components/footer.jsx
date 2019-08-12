@@ -75,7 +75,9 @@ const Footer = ({ author, email }) => {
               <strong> Twitter:</strong>{" "}
               <a
                 className={footerStyles.footerLink}
-                href="mailto: abc@example.com"
+                href="https://twitter.com/thecontentcycle"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 @TheContentCycle
               </a>
