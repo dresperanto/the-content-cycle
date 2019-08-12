@@ -1,8 +1,7 @@
 import React, { Component } from "react"
-import { Container, Icon, Menu, Sidebar } from "semantic-ui-react"
+import { Container, Menu } from "semantic-ui-react"
 import { Link } from "gatsby"
 import "./nav.css"
-// import NavMobile from "./navMobile"
 
 class Nav extends Component {
   render() {

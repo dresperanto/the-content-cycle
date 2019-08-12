@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Button, Container, Grid, Segment, Statistic } from "semantic-ui-react"
+import { Container, Grid, Segment, Statistic } from "semantic-ui-react"
 import "./pricing.css"
 
 const Pricing = () => {
@@ -95,20 +95,6 @@ const Pricing = () => {
               </Grid.Column>
             </Grid.Row>
           </Grid>
-          <div style={{ marginTop: "50px" }}>
-            <p>
-              Fusce a ultricies lacus, quis viverra tortor. Morbi quis
-              pellentesque leo, at accumsan elit. Interdum et malesuada fames ac
-              ante ipsum primis in faucibus. Curabitur tempus ante quis eleifend
-              iaculis. Nunc at condimentum risus. Pellentesque velit lorem,
-              luctus sed est vestibulum, imperdiet tristique orci. Nunc vitae
-              orci semper, vestibulum tortor ut, pharetra mi. Phasellus rhoncus
-              ante quis erat tempor, in egestas felis feugiat.
-            </p>
-            <Button positive fluid>
-              Call to Action
-            </Button>
-          </div>
         </div>
       </Container>
     </Layout>

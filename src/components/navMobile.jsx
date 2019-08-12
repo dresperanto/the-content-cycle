@@ -1,8 +1,6 @@
 import React, { Component } from "react"
-import { Button, Container, Icon, List, Menu, Sidebar } from "semantic-ui-react"
-import { Link } from "gatsby"
+import { Icon, Menu } from "semantic-ui-react"
 import "./nav.css"
-// import NavMobile from "./navMobile"
 
 class NavMobile extends Component {
   state = {
@@ -70,6 +68,12 @@ class NavMobile extends Component {
               active={activeItem === "Examples"}
               onClick={this.handleItemClick}
               href="/examples"
+            />
+            <Menu.Item
+              name="Pricing"
+              active={activeItem === "Pricing"}
+              onClick={this.handleItemClick}
+              href="/pricing"
             />
             <Menu.Item
               name="Contact"
