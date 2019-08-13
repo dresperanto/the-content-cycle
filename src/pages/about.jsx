@@ -89,8 +89,8 @@ const about = () => {
             <li>Puppet</li>
           </ul>
           <p className="textMobile ui">
-            Over the past 19 years, Ray has partnered with client to write a
-            myriad of contributed articles, blog posts, and press release (see
+            Over the past 19 years, Ray has partnered with clients to write a
+            myriad of contributed articles, blog posts, and press releases (see
             examples <Link to="/examples">here</Link>). During that time, Ray
             has streamlined “The Content Cycle” - a content creation workflow
             program that delivers unique, relevant, and impactful content.
