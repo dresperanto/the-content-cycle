@@ -1,9 +1,9 @@
 import React from "react"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
-import "./about.css"
 import SEO from "../components/seo"
 import { Grid, Responsive, Segment } from "semantic-ui-react"
+import "./about.css"
 
 const about = () => {
   return (
@@ -41,9 +41,9 @@ const about = () => {
                   Clients have included a number successful organizations
                   including Ansible, Cloudera, Hyperledger, Itential, The Linux
                   Foundation, MuleSoft, Nimble Storage, OpenStack, and Puppet.
-                  Over the past 19 years, Ray has partnered with client to write
-                  a myriad of contributed articles, blog posts, and press
-                  release (see examples <Link to="/examples">here</Link>).
+                  Over the past 19 years, Ray has partnered with clients to
+                  write a myriad of contributed articles, blog posts, and press
+                  releases (see examples <Link to="/examples">here</Link>).
                   During that time, Ray has streamlined “The Content Cycle” - a
                   content creation workflow program that delivers unique,
                   relevant, and impactful content.
@@ -78,14 +78,14 @@ const about = () => {
             included a number successful organizations including:
           </p>
           <ul className="textMobile ui">
-            <li>Ansible,</li>
-            <li>Cloudera,</li>
-            <li>Hyperledger,</li>
-            <li>Itential,</li>
-            <li>The Linux Foundation,</li>
-            <li>MuleSoft,</li>
-            <li>Nimble Storage,</li>
-            <li>OpenStack,</li>
+            <li>Ansible</li>
+            <li>Cloudera</li>
+            <li>Hyperledger</li>
+            <li>Itential</li>
+            <li>The Linux Foundation</li>
+            <li>MuleSoft</li>
+            <li>Nimble Storage</li>
+            <li>OpenStack</li>
             <li>Puppet</li>
           </ul>
           <p className="textMobile ui">

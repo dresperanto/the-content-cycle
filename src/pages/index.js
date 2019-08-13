@@ -20,21 +20,24 @@ const IndexPage = () => (
           </strong>{" "}
         </p>
         <p>
+          I have been creating content for high-tech B2B companies since 2000.
+          During that time, I have refined a content creation workflow program
+          (“The Content Cycle”) to efficiently produce effective, useful content
+          for my clients.{" "}
+        </p>
+        <p>
           Unfortunately, domain experts within the organization (CEO, CTO,
-          developers) oftentimes do not have the time to commit to creating
-          content.
+          developers) oftentimes are not able to commit to creating content.
         </p>
         <p>
           Alternatively, marketing teams may not have the technical expertise
-          required to understand and uplevel the content for clarity to a wider
+          required to understand and communicate the content clearly to a wider
           audience (or they simply don’t have the time to create the content
           themselves).
         </p>
         <p>
-          I have been creating content for high-tech B2B companies since 2000.
-          During that time, I have refined a content creation workflow program
-          (“The Content Cycle”) to efficiently produce unique, relevant, and
-          impactful content.{" "}
+          Let’s partner together to bridge the content generation gap in your
+          organization!
         </p>
       </div>
     </div>
