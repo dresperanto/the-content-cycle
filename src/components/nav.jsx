@@ -42,9 +42,9 @@ class Nav extends Component {
                 className="nav-item"
                 activeClassName="activeNav"
                 as={Link}
-                to="/pricing"
+                to="/bio"
               >
-                Pricing
+                Bio
               </Menu.Item>
               <Menu.Item
                 className="nav-item"

@@ -70,10 +70,10 @@ class NavMobile extends Component {
               href="/examples"
             />
             <Menu.Item
-              name="Pricing"
-              active={activeItem === "Pricing"}
+              name="Bio"
+              active={activeItem === "Bio"}
               onClick={this.handleItemClick}
-              href="/pricing"
+              href="/bio"
             />
             <Menu.Item
               name="Contact"

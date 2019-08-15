@@ -12,6 +12,19 @@ const IndexPage = () => (
       <Hero />
       <div className="homeContent">
         <p>
+          Every organization needs a content program that disciplined, efficient
+          and process based.
+        </p>
+        <p>
+          For a monthly retainer of $2500, we help you develop and maintain a
+          content cycle specifically designed to reach your target audience.{" "}
+        </p>
+        <p>
+          The program is simple. Each month, in partnership with the client, one
+          core pillar of the content cycle (contributed article, press release,
+          or blog) will be delivered.{" "}
+        </p>
+        {/* <p>
           <strong>
             Unique, relevant, and impactful content is an important element of
             the marketing mix for high-tech B2B companies. It creates awareness,
@@ -38,7 +51,7 @@ const IndexPage = () => (
         <p>
           Let’s partner together to bridge the content generation gap in your
           organization!
-        </p>
+        </p> */}
       </div>
     </div>
   </Layout>
