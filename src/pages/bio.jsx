@@ -9,7 +9,10 @@ const about = () => {
   return (
     <Layout>
       <SEO title="Bio" />
-      <div className=" mainContent" style={{ marginBottom: "40px" }}>
+      <div
+        className="mainContent animated fadeIn"
+        style={{ marginBottom: "40px" }}
+      >
         <Grid stackable className="nonMobile">
           <Grid.Row columns={1}>
             <Grid.Column width={16}>

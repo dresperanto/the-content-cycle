@@ -9,7 +9,10 @@ const about = () => {
   return (
     <Layout>
       <SEO title="About" />
-      <div className=" mainContent" style={{ marginBottom: "40px" }}>
+      <div
+        className="mainContent animated fadeIn"
+        style={{ marginBottom: "40px" }}
+      >
         <Segment
           className="nonMobile"
           raised
