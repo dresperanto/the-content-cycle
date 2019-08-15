@@ -12,8 +12,8 @@ const IndexPage = () => (
       <Hero />
       <div className="homeContent">
         <p>
-          Every organization needs a content program that disciplined, efficient
-          and process based.
+          Every organization needs a content program that is disciplined,
+          efficient and process based.
         </p>
         <p>
           For a monthly retainer of $2500, we help you develop and maintain a
