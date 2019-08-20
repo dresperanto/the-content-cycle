@@ -1,8 +1,13 @@
 .homeContent {
-  max-width: 960px;
+  max-width: 720px;
   margin: auto;
   margin-top: 20px;
   padding: 1rem 2rem;
   font-size: 1.4rem;
   line-height: 1rem;
+}
+
+.homeContent ul {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }

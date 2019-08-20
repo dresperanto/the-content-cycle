@@ -11,7 +11,7 @@ const examples = () => {
     <Layout>
       <SEO title="Examples" />
       <div className="animated fadeIn mainContent">
-        <h2>Examples of recent contributed articles</h2>
+        <h2>Recent contributed articles</h2>
         <Segment>
           <List divided verticalAlign="middle">
             <List.Item verticalAlign="top">
@@ -63,7 +63,7 @@ const examples = () => {
             </List.Item>
           </List>
         </Segment>
-        <h2>Examples of recent press releases </h2>
+        <h2>Recent press releases </h2>
         <Segment>
           <List divided relaxed>
             <List.Item>

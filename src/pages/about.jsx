@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import { Link } from "gatsby"
+
 import SEO from "../components/seo"
 import { Grid, Responsive, Segment } from "semantic-ui-react"
 import "./about.css"
@@ -8,7 +8,7 @@ import "./about.css"
 const about = () => {
   return (
     <Layout>
-      <SEO title="About" />
+      <SEO title="How it works" />
       <div
         className="mainContent animated fadeIn"
         style={{ marginBottom: "40px" }}
@@ -25,6 +25,11 @@ const about = () => {
               </Grid.Column>
               <Grid.Column width={10}>
                 <h2>How it Works</h2>
+                <p>
+                  The program is simple. Each month, in partnership with the
+                  client, one core pillar of the content cycle (contributed
+                  article, press release, or blog) will be delivered.
+                </p>
                 <div className="cycleText">
                   <h2>• Kick-off interviews & research</h2>
                   <h2>• Topic generation & alignment</h2>

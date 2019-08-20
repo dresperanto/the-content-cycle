@@ -11,7 +11,24 @@ const IndexPage = () => (
     <div className="animated fadeIn" style={{ marginBottom: "60px" }}>
       <Hero />
       <div className="homeContent">
+        <ul>
+          <li>
+            A content program that is disciplined, efficient and process based.
+          </li>
+          <li>
+            A content cycle specifically designed to reach your target audience.
+          </li>
+          <li>An affordable plan starting at $2500 per month.</li>
+        </ul>
+        {/* <p>
+          A content program that is disciplined, efficient and process based.
+        </p>
         <p>
+          A content cycle specifically designed to reach your target audience.
+        </p>
+        <p>An affordable plan starting at $2500 per month.</p> */}
+
+        {/* <p>
           Every organization needs a content program that is disciplined,
           efficient and process based.
         </p>
@@ -23,34 +40,6 @@ const IndexPage = () => (
           The program is simple. Each month, in partnership with the client, one
           core pillar of the content cycle (contributed article, press release,
           or blog) will be delivered.{" "}
-        </p>
-        {/* <p>
-          <strong>
-            Unique, relevant, and impactful content is an important element of
-            the marketing mix for high-tech B2B companies. It creates awareness,
-            builds credibility, and helps differentiate the organization within
-            the marketplace.
-          </strong>{" "}
-        </p>
-        <p>
-          I have been creating content for high-tech B2B companies since 2000.
-          During that time, I have refined a content creation workflow program
-          (“The Content Cycle”) to efficiently produce effective, useful content
-          for my clients.{" "}
-        </p>
-        <p>
-          Unfortunately, domain experts within the organization (CEO, CTO,
-          developers) oftentimes are not able to commit to creating content.
-        </p>
-        <p>
-          Alternatively, marketing teams may not have the technical expertise
-          required to understand and communicate the content clearly to a wider
-          audience (or they simply don’t have the time to create the content
-          themselves).
-        </p>
-        <p>
-          Let’s partner together to bridge the content generation gap in your
-          organization!
         </p> */}
       </div>
     </div>

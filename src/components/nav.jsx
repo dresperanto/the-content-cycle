@@ -28,7 +28,7 @@ class Nav extends Component {
                 as={Link}
                 to="/about"
               >
-                About
+                How It Works
               </Menu.Item>
               <Menu.Item
                 className="nav-item"

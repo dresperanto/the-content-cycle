@@ -11,6 +11,10 @@ const Contact = () => {
       <Container>
         <div className="animated fadeIn mainContent contactForm">
           <Segment raised padded style={{ backgroundColor: "#f5f5f5" }}>
+            <p>
+              To learn more about the The Content Cycle or setup an introductory
+              meeting please complete the form below.
+            </p>
             <form
               name="contact"
               method="post"
@@ -30,17 +34,13 @@ const Contact = () => {
                   <input
                     type="email"
                     name="email"
-                    placeholder="joe@schmoe.com"
+                    placeholder="Email address"
                   />
                 </div>
               </div>
               <div className="field">
                 <label>Message</label>
-                <textarea
-                  name="message"
-                  placeholder="Tell me something interesting"
-                  rows="6"
-                />
+                <textarea name="message" placeholder="Message" rows="6" />
               </div>
               <button className="ui button positive" type="submit">
                 Submit
