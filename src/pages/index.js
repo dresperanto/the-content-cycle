@@ -8,7 +8,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
 
-    <div className="animated fadeIn" style={{ marginBottom: "60px" }}>
+    <div className="animated fadeIn" style={{ marginBottom: "20px" }}>
       <Hero />
       <div className="homeContent">
         <ul>

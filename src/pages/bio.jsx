@@ -31,7 +31,7 @@ const about = () => {
                   Clients have included a number successful organizations
                   including;
                 </p>
-                <ul className="">
+                <ul style={{ fontSize: "1.2rem" }}>
                   <li>Ansible</li>
                   <li>Cloudera</li>
                   <li>Hyperledger</li>
