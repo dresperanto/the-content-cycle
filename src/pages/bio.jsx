@@ -42,7 +42,7 @@ const about = () => {
                   <li>OpenStack</li>
                   <li>Puppet</li>
                 </ul>
-                <p>
+                <p style={{ fontSize: "1.2rem" }}>
                   Over the past 19 years, Ray has partnered with clients to
                   write a myriad of contributed articles, blog posts, and press
                   releases (see examples <Link to="/examples">here</Link>).
