@@ -61,7 +61,7 @@ class NavMobile extends Component {
               active={activeItem === "About"}
               onClick={this.handleItemClick}
               link
-              href="/about"
+              href="/how-it-works"
             />
             <Menu.Item
               name="Examples"

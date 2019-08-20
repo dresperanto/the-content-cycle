@@ -26,7 +26,7 @@ class Nav extends Component {
                 className="nav-item"
                 activeClassName="activeNav"
                 as={Link}
-                to="/about"
+                to="/how-it-works"
               >
                 How It Works
               </Menu.Item>
