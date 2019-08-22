@@ -29,7 +29,7 @@ const about = () => {
                   Ray George has been working in a PR capacity with B2B
                   technology startups, enterprises and foundations since 2000.
                   Clients have included a number successful organizations
-                  including;
+                  including:
                 </p>
                 <ul style={{ fontSize: "1.2rem" }}>
                   <li>Ansible</li>
